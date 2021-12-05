@@ -1,9 +1,10 @@
 use std::env;
 
 extern crate todo;
-
+mod file;
 use todo::parser;
 
 fn main() {
-  parser::parse_command("/home/jtwam/.todo", &mut env::args());
+  let todo_path = file::get_todo_path();
+  parser::parse_command(&todo_path, &mut env::args());
 }

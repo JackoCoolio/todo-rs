@@ -3,7 +3,6 @@
 A command-line todo list tracker written in Rust.
 
 ## Installation
-Note that `todo` is only supported on Linux for now.
 1. Clone the repository with `git clone https://github.com/JackoCoolio/todo`
 2. `cd todo`
 3. Build with `cargo build`
